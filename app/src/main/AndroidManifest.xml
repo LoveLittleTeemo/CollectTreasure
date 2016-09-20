@@ -28,6 +28,16 @@
             android:name=".activity.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".activity.auth.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="登陆"/>
+
+        <activity
+            android:name=".activity.auth.register.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:label="注册"/>
     </application>
 
 </manifest>
