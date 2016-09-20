@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">收宝</string>
+
+
+    <string name="tab_main_home">主页</string>
+    <string name="tab_main_connection">人脉</string>
+    <string name="tab_main_district">商圈</string>
+    <string name="tab_main_user">个人</string>
+
+</resources>

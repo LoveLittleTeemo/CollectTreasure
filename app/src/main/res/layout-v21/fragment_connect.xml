@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@id/main_state_bar"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/colorPrimary" />
+
+    <android.support.v7.widget.Toolbar style="@style/ToolbarStyle">
+
+        <TextView
+            style="@style/TextView.MainTitle"
+            android:text="人脉" />
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

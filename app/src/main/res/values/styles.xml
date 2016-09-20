@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ToolbarStyle-->
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:id">@id/toolbar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/AppTheme.AppBarOverlay</item>
+        <item name="popupTheme">@style/AppTheme.PopupOverlay</item>
+        <item name="android:elevation" tools:targetApi="lollipop">0dp</item>
+    </style>
+
+    <!--TextView-->
+    <style name="TextView" />
+
+    <style name="TextView.MainTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
